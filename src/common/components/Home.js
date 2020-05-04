@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import {setBooks} from '../actions';
+import {setBooks} from '../../actions';
 
 class Home extends React.Component {
   componentDidMount() {

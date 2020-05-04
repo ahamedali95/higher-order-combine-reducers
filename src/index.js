@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import rootReducer from './reducers';
-import Home from './components/Home';
+import Home from './common/components/Home';
+import rootReducer from './common/reducers/index';
 
 const store = createStore(rootReducer);
 
